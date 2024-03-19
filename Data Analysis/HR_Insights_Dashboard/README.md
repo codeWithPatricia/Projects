@@ -24,8 +24,9 @@ One notable feature of this dashboard is its capability to drill down into indiv
 
 Ultimately, this comprehensive HR dashboard serves as a powerful tool for HR professionals and decision-makers within the healthcare industry, enabling them to effectively manage and optimize their workforce, drive employee engagement, and enhance organizational performance.
 
-![Screenshot (1)](https://github.com/codeWithPatricia/HR_Insights_Dashboard/assets/33192304/e4da68df-01fe-461c-8526-4b6c753af17f)
-![Screenshot (4)](https://github.com/codeWithPatricia/HR_Insights_Dashboard/assets/33192304/09d3c959-9c00-4772-99e4-86b8a78501bf)
+![Screenshot (1)](https://github.com/codeWithPatricia/Projects/assets/33192304/3260e4e4-d917-4e5d-b570-aea6444e0d7d)
+
+![Screenshot (4)](https://github.com/codeWithPatricia/Projects/assets/33192304/ccf3a5c5-d5f7-4a30-91ad-dac257c981cb)
 
 ### Data Sources
 - HR Analytics Data: The primary dataset used for this analysis is the "HR Analytics Data (Uncleaned Version).csv" file, containing detailed information about each employees in the company.
@@ -64,9 +65,12 @@ ImageURL =
 ```
 ### Results/Findings
 The analysis results are summarized as follows:
-- The Company's Sales have been steadily increasing over the past year, with a noticeable peak during the hoilday season.
-- Product Category A is the best-performing category in terms of sales and revenue.
-- Customer segments with high lifetime value (LIV) should be targeted for marketing efforts.
+- Approximately 76.7% of employees are categorized as active workers, and the workforce consists of 60% male and 40% female employees.
+- A total of 72 employees are due for promotion, while 117 are due for retrenchment.
+- Male employees outnumber female employees in each department, including Research & Development, Sales, and Human Resources.
+- 15.58% of employees live very far from the office, 20.28% live close to the office, and 63.95% live very close to the office.
+- Among the workforce, 28.3% are classified as overtime workers, while 71.7% are not.
+- Several employees have worked for the company for more than 5 years.
 
 ### Recommendations
 Based on the analysis, we recommend the following actions:
