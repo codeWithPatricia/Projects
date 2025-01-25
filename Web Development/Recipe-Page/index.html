@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              BG1: 'hsl(30, 54%, 90%)',
+              Brown800:'hsl(14, 45%, 36%)',
+              Blue:'hsl(228, 45%, 44%)',
+            },
+            fontFamily: {
+              youngSerif: ["youngSerif", "serif"],
+              outfit: ["Outfit", "sans-serif"],
+            },
+            screens: {
+              'xs':'375px',
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+  </head>
+
+<body class="font-youngSerif bg-BG1 text-[16px] ">
+    <div class="max-w-2xl px-8 mx-auto my-0 lg:my-8 bg-white rounded-lg p-0 lg:p-6 ">
+
+        <!--Image-->
+        <img src="assets\images\image-omelette.jpeg" alt="Omelette" class="object-cover rounded-none md:rounded-lg w-full h-64">
+
+        <!--Content-->
+
+        <div class=" py-4 ">
+
+            <h1 class="text-4xl text-gray-800 mb-2 ">Simple Omelette Recipe</h1>
+
+            <p class="text-gray-600 mb-6 font-outfit">An easy and quick dish, perfect for any meal. This classic omelette combines
+                beaten eggs cooked
+                to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+            </p>
+
+            <div class="bg-pink-100 p-4 rounded-lg mb-6 px-4 font-outfit">
+                <h3 class="font-semibold text-lg text-rose-800">Preparation time</h3>
+
+                <ul class="list-disc list-inside mt-2 text-stone-600 space-y-1 ">
+                    <li><span class="font-bold">Total:</span> Approximately 10 minutes</li>
+                    <li><span class="font-bold">Preparation:</span> 5 minutes</li>
+                    <li><span class="font-bold">Cooking:</span> 5 minutes</li>
+                </ul>
+            </div>
+
+            <div class="space-y-3">
+              <h2 class="font-semibold text-2xl text-rose-800">Ingredients</h2>
+              <ul class="list-disc list-inside mt-2 text-stone-600 font-outfit space-y-1">
+                  <li>2-3 large eggs</li>
+                  <li>Salt, to taste</li>
+                  <li>Pepper, to taste</li>
+                  <li>1 tablespoon of butter or oil</li>
+                  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+              </ul>
+            </div>
+
+            <hr class="mx-3 my-7 text-gray-50 bg-stone-100" />
+
+            <div class="space-y-3">
+              <h2 class="font-semibold text-2xl text-rose-800 ">Instructions</h2>
+              <ol class="list-decimal list-inside text-Brown800 space-y-2 mb-6 font-outfit space-y-1">
+                  <li>
+                      <span class="font-bold">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and
+                      pepper until they are well mixed.
+                      You can add a tablespoon of water or milk for a fluffier texture.
+                  </li>
+                  <li>
+                      <span class="font-bold">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.
+                  </li>
+                  <li>
+                      <span class="font-bold">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+                      the eggs evenly coat the surface.
+                  </li>
+                  <li>
+                      <span class="font-bold">Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the
+                      middle, sprinkle your chosen fillings over one half of the omelette.
+                  </li>
+                  <li>
+                      <span class="font-bold">Fold and serve: </span>As the omelette continues to cook, carefully lift one edge and fold it over the
+                      fillings. Let it cook for another minute, then slide it onto a plate.
+                  </li>
+                  <li>
+                      <span class="font-bold">Enjoy:</span> Serve hot, with additional salt and pepper if needed.
+                  </li>
+              </ol>
+            </div>
+
+            <hr class="mx-3 my-7 text-gray-50 bg-stone-100" />
+
+            
+            <div class="space-y-3">
+              <h2 class="font-semibold text-2xl text-rose-800">Nutrition</h2>
+
+              <p class="text-gray-600 mb-6 font-outfit">The table below shows nutritional values per serving without the additional fillings.</p>
+              <table class="w-full text-left border-collapse mt-4 text-gray-600 font-outfit space-y-1">
+                  <thead>
+                      <tr class="border-b">
+                          <th>Calories</th>
+                          <th class="text-Brown800 ">277kcal</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="border-b py-1">
+                          <td class="py-2">Carbs</td>
+                          <td class="py-2 text-Brown800">0g</td>
+                      </tr>
+                      <tr class="border-b py-1">
+                          <td class="py-2">Protein</td>
+                          <td class="py-2 text-Brown800">20g</td>
+                      </tr>
+                      <tr>
+                          <td class="py-2">Fat</td>
+                          <td class="py-2 text-Brown800">22g</td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+
+        </div>
+    </div>
+    <footer class="text-Blue text-[11px] text-center">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><span class="text-rose-800 hover:text-rose-400">Frontend Mentor</span></a>. 
+        Coded by <a href="https://devwithpatricia.netlify.app"><span class="text-rose-800 hover:text-rose-400">Patricia Iheagwara</span></a>.
+      </div>
+    </footer>
+</body>
+
+</html>

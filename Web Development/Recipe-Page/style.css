@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'outfit';
+  src:url(/assets/fonts/outfit/static/Outfit-Regular.ttf) format('truetype'),
+}
+
+@font-face {
+    font-family: 'youngSerif';
+    src:url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype'),
+  }
