@@ -1,104 +1,76 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Screenshot of my solution](design\Desktop.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Mobile Screenshot of my solution](design\Desktop.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Here are some key takeaways from this project:
+
+- Improved understanding of **Tailwind CSS utility classes** and how they can be used to build responsive and aesthetically pleasing designs quickly.
+- Practiced creating a **mobile-first workflow**, ensuring the site is fully responsive across devices.
+- Gained more experience structuring HTML to be semantic and accessible.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+```html and tailwind css
+<div class="bg-pink-100 p-4 rounded-lg mb-6 px-4 font-outfit">
+  <h3 class="font-semibold text-lg text-rose-800">Preparation time</h3>
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+  <ul class="list-disc list-inside mt-2 text-stone-600 space-y-1 ">
+    <li><span class="font-bold">Total:</span> Approximately 10 minutes</li>
+    <li><span class="font-bold">Preparation:</span> 5 minutes</li>
+    <li><span class="font-bold">Cooking:</span> 5 minutes</li>
+  </ul>
+</div>
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to focus on improving my responsiveness skills to ensure that my designs look seamless across all screen sizes. Additionally, I aim to deepen my understanding of advanced Tailwind CSS concepts, such as customizing themes and working with utility-first animations.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I also plan to explore accessibility best practices to make my projects more inclusive, as well as refine my workflow when using tools like Flexbox and Grid for complex layouts. These are areas where I see room for growth and believe they will elevate the quality of my future projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Tailwind CSS Documentation](https://www.tailwindcss.com) - This resource provided clear and concise explanations of utility classes, helping me structure my styles more efficiently. It's a must-read for anyone working with Tailwind CSS.
+- [Flowbite](https://www.flowbite.com) - This article introduced me to prebuilt components that seamlessly integrate with Tailwind CSS. It was instrumental in speeding up my development process.
+- [Frontend Mentor Submission Guide ](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) - This guide was invaluable for understanding the steps involved in submitting my projects on Frontend Mentor. I'd recommend it to anyone tackling their challenges.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Patricia Iheagwara](https://devwithpatricia.netlify.app/)
+- Frontend Mentor - [@codeWithPatricia](https://www.frontendmentor.io/profile/codeWithPatricia)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
